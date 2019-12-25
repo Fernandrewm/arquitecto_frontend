@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nav de CSS-Tricks</title>
+    <script src="https://kit.fontawesome.com/afa4a5f40f.js"></script>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto 167px 167px 167px 167px 167px 167px 167px auto;
+            grid-template-rows: 130px;
+        }
+        .item{
+            background: #0B245B;
+            border: 1px solid whitesmoke;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item:nth-of-type(1){
+            border-top: 7px solid yellow;
+        }
+        .item i{
+            color: white;
+            transform: scale(2.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Logo</div>
+        <div class="item"><i class="fas fa-newspaper"></i>Article</div>
+        <div class="item">Video</div>
+        <div class="item">Almanac</div>
+        <div class="item">Snippets</div>
+        <div class="item">Newsletter #6</div>
+        <div class="item">Jobs</div>
+        <div class="item">Guides</div>
+        <div class="item">Search</div>
+    </div>
+</body>
+</html>
