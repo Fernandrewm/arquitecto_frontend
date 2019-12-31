@@ -60,6 +60,9 @@ main {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   border-radius: 20px;
+  -webkit-box-shadow: 0 20px 33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 33px 0px rgba(0, 0, 0, 0.5);
+  color: #333333;
   background-color: #ffffff; }
   .estadistica--perfil h3 {
     font-weight: 600;
@@ -81,8 +84,10 @@ main {
   margin: 30px auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
-  background-color: #ffffff;
-  color: #333333; }
+  -webkit-box-shadow: 0 20px 33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 33px 0px rgba(0, 0, 0, 0.5);
+  color: #333333;
+  background-color: #ffffff; }
   .ubicacion--perfil i {
     display: block;
     float: left;

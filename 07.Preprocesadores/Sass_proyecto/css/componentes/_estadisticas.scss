@@ -5,8 +5,8 @@
   padding-top: 15px;
   margin: 0 auto;
   justify-content: space-around;
-  border-radius: 20px;
-  background-color: $color-claro;
+  @include caja;
+  
   h3{
     font-weight: 600;
     font-size: 20px;
