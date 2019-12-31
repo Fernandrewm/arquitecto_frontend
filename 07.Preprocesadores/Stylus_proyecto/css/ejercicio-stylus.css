@@ -43,6 +43,9 @@ body {
   height: 75px;
   padding: 20px;
   margin-left: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
 }
 .encabezado--con-filtros .filtros span {
   text-transform: uppercase;
@@ -52,4 +55,37 @@ body {
   margin-left: 20px;
   font-size: 25px;
   text-decoration: none;
+  color: #333;
+}
+.contenido {
+  margin-bottom: 40px;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.caja {
+  max-width: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+}
+.caja__contenido {
+  padding: 20px;
+  background-color: #fff;
+}
+.caja__contenido span {
+  text-transform: uppercase;
+  color: #8841da;
+  font-family: 'Oswald', sans-serif;
+}
+.caja__contenido h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
 }
