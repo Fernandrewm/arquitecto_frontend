@@ -29,13 +29,15 @@ body {
 
 /*home layout*/
 .home {
-  /* autoprefixer: off */
   background: var(--lightColor);
+  display: -ms-grid;
   display: grid;
   height: 100vh;
+  -ms-grid-columns: 350px 1fr;
   grid-template-columns: 350px 1fr;
+  -ms-grid-rows: 1fr 150px;
   grid-template-rows: 1fr 150px;
-  grid-template-areas: "sidebar primary"
+      grid-template-areas: "sidebar primary"
                        "sidebar featuring";
 }
 
